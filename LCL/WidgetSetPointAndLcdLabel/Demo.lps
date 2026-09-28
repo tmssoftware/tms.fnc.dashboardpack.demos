@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="7">
+      <Unit0>
+        <Filename Value="Demo.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="21"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="udemo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UDemo"/>
+        <TopLine Value="62"/>
+        <CursorPos X="66" Y="82"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetProgress.pas"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="1765"/>
+        <CursorPos X="31" Y="1784"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetSetPoint.pas"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="457"/>
+        <CursorPos X="30" Y="474"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetMultiProgress.pas"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="563"/>
+        <CursorPos X="19" Y="586"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetMarqueeProgress.pas"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="247"/>
+        <CursorPos X="28" Y="271"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetMarqueeContinuousProgress.pas"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="302"/>
+        <CursorPos X="28" Y="321"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit6>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetSetPoint.pas"/>
+        <Caret Line="156" Column="103" TopLine="140"/>
+      </Position1>
+      <Position2>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetSetPoint.pas"/>
+        <Caret Line="157" Column="100" TopLine="141"/>
+      </Position2>
+      <Position3>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetSetPoint.pas"/>
+        <Caret Line="474" Column="30" TopLine="457"/>
+      </Position3>
+      <Position4>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetMultiProgress.pas"/>
+        <Caret Line="199" Column="26" TopLine="186"/>
+      </Position4>
+      <Position5>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetMultiProgress.pas"/>
+        <Caret Line="224" Column="84" TopLine="215"/>
+      </Position5>
+      <Position6>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetMultiProgress.pas"/>
+      </Position6>
+      <Position7>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetMultiProgress.pas"/>
+        <Caret Line="199" Column="33" TopLine="176"/>
+      </Position7>
+      <Position8>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetMultiProgress.pas"/>
+        <Caret Line="236" Column="99" TopLine="214"/>
+      </Position8>
+      <Position9>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetMultiProgress.pas"/>
+        <Caret Line="576" Column="31" TopLine="552"/>
+      </Position9>
+      <Position10>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetMultiProgress.pas"/>
+        <Caret Line="233" Column="29" TopLine="221"/>
+      </Position10>
+      <Position11>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetMultiProgress.pas"/>
+        <Caret Line="234" Column="26" TopLine="221"/>
+      </Position11>
+      <Position12>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetMultiProgress.pas"/>
+        <Caret Line="237" Column="84" TopLine="221"/>
+      </Position12>
+      <Position13>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetMultiProgress.pas"/>
+        <Caret Line="586" Column="19" TopLine="563"/>
+      </Position13>
+      <Position14>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetMarqueeProgress.pas"/>
+        <Caret Line="132" Column="22" TopLine="118"/>
+      </Position14>
+      <Position15>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetMarqueeProgress.pas"/>
+        <Caret Line="133" Column="36" TopLine="118"/>
+      </Position15>
+      <Position16>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetMarqueeProgress.pas"/>
+        <Caret Line="158" Column="101" TopLine="136"/>
+      </Position16>
+      <Position17>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetMarqueeProgress.pas"/>
+        <Caret Line="271" Column="28" TopLine="247"/>
+      </Position17>
+      <Position18>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetMarqueeContinuousProgress.pas"/>
+        <Caret Line="143" Column="36" TopLine="132"/>
+      </Position18>
+      <Position19>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetMarqueeContinuousProgress.pas"/>
+        <Caret Line="147" Column="36" TopLine="132"/>
+      </Position19>
+      <Position20>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetMarqueeContinuousProgress.pas"/>
+        <Caret Line="182" Column="101" TopLine="160"/>
+      </Position20>
+      <Position21>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetMarqueeContinuousProgress.pas"/>
+        <Caret Line="296" Column="31" TopLine="283"/>
+      </Position21>
+      <Position22>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetMarqueeContinuousProgress.pas"/>
+        <Caret Line="158" Column="28" TopLine="146"/>
+      </Position22>
+      <Position23>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetMarqueeContinuousProgress.pas"/>
+        <Caret Line="160" Column="28" TopLine="146"/>
+      </Position23>
+      <Position24>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetMarqueeContinuousProgress.pas"/>
+        <Caret Line="184" Column="71" TopLine="162"/>
+      </Position24>
+      <Position25>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetMarqueeContinuousProgress.pas"/>
+        <Caret Line="185" Column="92" TopLine="163"/>
+      </Position25>
+      <Position26>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetMarqueeContinuousProgress.pas"/>
+        <Caret Line="321" Column="17" TopLine="294"/>
+      </Position26>
+      <Position27>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetMarqueeContinuousProgress.pas"/>
+        <Caret Line="3" Column="38"/>
+      </Position27>
+      <Position28>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetMarqueeContinuousProgress.pas"/>
+        <Caret Line="142" Column="42" TopLine="124"/>
+      </Position28>
+      <Position29>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetMarqueeContinuousProgress.pas"/>
+        <Caret Line="147" Column="34" TopLine="124"/>
+      </Position29>
+      <Position30>
+        <Filename Value="..\..\..\LCLTMSFNCWidgetMarqueeContinuousProgress.pas"/>
+        <Caret Line="183" Column="120" TopLine="161"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

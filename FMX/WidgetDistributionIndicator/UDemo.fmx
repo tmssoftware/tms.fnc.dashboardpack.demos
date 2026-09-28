@@ -1,0 +1,174 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'TMS FNC Widget Distribution Indicator Demo'
+  ClientHeight = 453
+  ClientWidth = 685
+  FormStyle = StayOnTop
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop, iPhone, iPad]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    Anchors = [akLeft, akBottom]
+    Position.X = 24.000000000000000000
+    Position.Y = 377.000000000000000000
+    Size.Width = 101.000000000000000000
+    Size.Height = 16.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Distribution Type:'
+  end
+  object Panel1: TPanel
+    Align = Top
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    Size.Width = 685.000000000000000000
+    Size.Height = 352.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object TMSFNCWidgetDistributionIndicator1: TTMSFNCWidgetDistributionIndicator
+      Align = Client
+      Size.Width = 685.000000000000000000
+      Size.Height = 352.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Border.Kind = gskSolid
+      Border.Color = claDimgray
+      DonutThickness = 0.250000000000000000
+      BarWidth = 0.300000011920929000
+      BarLength = 0.899999976158142100
+      ValueFont.Family = 'Arial'
+      ValueFont.Color = claDarkslategray
+      ValueFont.Name = 'Arial'
+      ValueType = vtPercentage
+      ValueFormatPercentage = '%.0n%%'
+      ValueFormatAbsolute = '%.0n'
+      Values = <
+        item
+          Value = 22.000000000000000000
+          Text = 'Item 0'
+          Fill.Kind = gfkSolid
+          Fill.Orientation = gfoVertical
+          Fill.Color = claDarkturquoise
+          Fill.ColorTo = claGray
+          Fill.ColorMirror = claNull
+          Fill.ColorMirrorTo = claNull
+          Fill.TextureMode = gtmStretch
+          Stroke.Kind = gskSolid
+          Stroke.Color = claDimgray
+        end
+        item
+          Value = 10.000000000000000000
+          Text = 'Item 1'
+          Fill.Kind = gfkSolid
+          Fill.Orientation = gfoVertical
+          Fill.Color = claOrange
+          Fill.ColorTo = claGray
+          Fill.ColorMirror = claNull
+          Fill.ColorMirrorTo = claNull
+          Fill.TextureMode = gtmStretch
+          Stroke.Kind = gskSolid
+          Stroke.Color = claDimgray
+        end
+        item
+          Value = 21.000000000000000000
+          Text = 'Item 2'
+          Fill.Kind = gfkSolid
+          Fill.Orientation = gfoVertical
+          Fill.Color = claLimegreen
+          Fill.ColorTo = claGray
+          Fill.ColorMirror = claNull
+          Fill.ColorMirrorTo = claNull
+          Fill.TextureMode = gtmStretch
+          Stroke.Kind = gskSolid
+          Stroke.Color = claDimgray
+        end
+        item
+          Value = 25.000000000000000000
+          Text = 'Item 3'
+          Fill.Kind = gfkSolid
+          Fill.Orientation = gfoVertical
+          Fill.Color = claViolet
+          Fill.ColorTo = claGray
+          Fill.ColorMirror = claNull
+          Fill.ColorMirrorTo = claNull
+          Fill.TextureMode = gtmStretch
+          Stroke.Kind = gskSolid
+          Stroke.Color = claDimgray
+        end
+        item
+          Value = 16.000000000000000000
+          Text = 'Item 4'
+          Fill.Kind = gfkSolid
+          Fill.Orientation = gfoVertical
+          Fill.Color = claYellow
+          Fill.ColorTo = claGray
+          Fill.ColorMirror = claNull
+          Fill.ColorMirrorTo = claNull
+          Fill.TextureMode = gtmStretch
+          Stroke.Kind = gskSolid
+          Stroke.Color = claDimgray
+        end
+        item
+          Value = 6.000000000000000000
+          Text = 'Item 5'
+          Fill.Kind = gfkSolid
+          Fill.Orientation = gfoVertical
+          Fill.Color = claOrangered
+          Fill.ColorTo = claGray
+          Fill.ColorMirror = claNull
+          Fill.ColorMirrorTo = claNull
+          Fill.TextureMode = gtmStretch
+          Stroke.Kind = gskSolid
+          Stroke.Color = claDimgray
+        end>
+      Header.Font.Family = 'Arial'
+      Header.Font.Size = 14.000000000000000000
+      Header.Font.Color = claGray
+      Header.Font.Name = 'Arial'
+      Footer.Font.Family = 'Arial'
+      Footer.Font.Size = 14.000000000000000000
+      Footer.Font.Color = claGray
+      Footer.Font.Name = 'Arial'
+      Legend.Font.Family = 'Arial Narrow'
+      Legend.Font.Color = claGray
+      Legend.Font.Name = 'Arial Narrow'
+      Legend.Position = lpBottom
+      Funnel.WidthTop = 0.600000023841857900
+      Funnel.WidthBottom = 0.330000013113021900
+      Funnel.Gap = 0.019999999552965160
+    end
+  end
+  object ComboBox1: TComboBox
+    Anchors = [akLeft, akBottom]
+    Position.X = 144.000000000000000000
+    Position.Y = 374.000000000000000000
+    Size.Width = 169.000000000000000000
+    Size.Height = 24.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    OnChange = ComboBox1Change
+  end
+  object RadioButton1: TRadioButton
+    Anchors = [akLeft, akBottom]
+    Position.X = 24.000000000000000000
+    Position.Y = 416.000000000000000000
+    Size.Width = 185.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'RadioButton1'
+    OnChange = RadioButton1Click
+  end
+  object RadioButton2: TRadioButton
+    Anchors = [akLeft, akBottom]
+    Position.X = 240.000000000000000000
+    Position.Y = 416.000000000000000000
+    Size.Width = 185.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = 'RadioButton2'
+    OnChange = RadioButton1Click
+  end
+end

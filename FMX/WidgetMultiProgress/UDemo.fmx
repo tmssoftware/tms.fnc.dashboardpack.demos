@@ -1,0 +1,116 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  BorderStyle = Single
+  Caption = 'TMS FNC Widget Multi Progress Demo'
+  ClientHeight = 469
+  ClientWidth = 734
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop, iPhone, iPad]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Panel1: TPanel
+    Align = Top
+    Size.Width = 734.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Button1: TButton
+      Position.X = 24.000000000000000000
+      Position.Y = 13.000000000000000000
+      Size.Width = 137.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Update Status'
+      OnClick = Button1Click
+    end
+  end
+  object TMSFNCWidgetMultiProgress1: TTMSFNCWidgetMultiProgress
+    Align = Client
+    Size.Width = 734.000000000000000000
+    Size.Height = 420.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    CircleOptions.Margin = 30
+    CircleItems = <
+      item
+        Fill.Kind = gfkSolid
+        Fill.Orientation = gfoVertical
+        Fill.Color = claDarkturquoise
+        Fill.ColorTo = claGray
+        Fill.ColorMirror = claNull
+        Fill.ColorMirrorTo = claNull
+        Fill.TextureMode = gtmStretch
+        UnfinishedFill.Kind = gfkSolid
+        UnfinishedFill.Orientation = gfoVertical
+        UnfinishedFill.Color = claWhite
+        UnfinishedFill.ColorTo = claGray
+        UnfinishedFill.ColorMirror = claNull
+        UnfinishedFill.ColorMirrorTo = claNull
+        UnfinishedFill.TextureMode = gtmStretch
+        Value = 50.000000000000000000
+        Caption = 'Item 1'
+      end
+      item
+        Fill.Kind = gfkSolid
+        Fill.Orientation = gfoVertical
+        Fill.Color = claOrange
+        Fill.ColorTo = claGray
+        Fill.ColorMirror = claNull
+        Fill.ColorMirrorTo = claNull
+        Fill.TextureMode = gtmStretch
+        UnfinishedFill.Kind = gfkSolid
+        UnfinishedFill.Orientation = gfoVertical
+        UnfinishedFill.Color = claWhite
+        UnfinishedFill.ColorTo = claGray
+        UnfinishedFill.ColorMirror = claNull
+        UnfinishedFill.ColorMirrorTo = claNull
+        UnfinishedFill.TextureMode = gtmStretch
+        Value = 50.000000000000000000
+        Caption = 'Item 2'
+      end
+      item
+        Fill.Kind = gfkSolid
+        Fill.Orientation = gfoVertical
+        Fill.Color = claLimegreen
+        Fill.ColorTo = claGray
+        Fill.ColorMirror = claNull
+        Fill.ColorMirrorTo = claNull
+        Fill.TextureMode = gtmStretch
+        UnfinishedFill.Kind = gfkSolid
+        UnfinishedFill.Orientation = gfoVertical
+        UnfinishedFill.Color = claWhite
+        UnfinishedFill.ColorTo = claGray
+        UnfinishedFill.ColorMirror = claNull
+        UnfinishedFill.ColorMirrorTo = claNull
+        UnfinishedFill.TextureMode = gtmStretch
+        Value = 50.000000000000000000
+        Caption = 'Item 3'
+      end>
+    Legend.Font.Family = 'Arial Narrow'
+    Legend.Font.Color = claGray
+    Legend.Font.Name = 'Arial Narrow'
+    Legend.Border.Kind = gskNone
+    Legend.Border.Color = claDarkgray
+    Legend.Fill.Kind = gfkSolid
+    Legend.Fill.Orientation = gfoVertical
+    Legend.Fill.Color = claWhite
+    Legend.Fill.ColorTo = claGray
+    Legend.Fill.ColorMirror = claNull
+    Legend.Fill.ColorMirrorTo = claNull
+    Legend.Fill.TextureMode = gtmStretch
+    Border.Kind = gskSolid
+    Border.Color = claDimgray
+    CaptionOptions.Font.Family = 'Arial'
+    CaptionOptions.Font.Size = 14.000000000000000000
+    CaptionOptions.Font.Color = claGray
+    CaptionOptions.Font.Name = 'Arial'
+    ValueFont.Family = 'Arial Narrow'
+    ValueFont.Color = claDarkslategray
+    ValueFont.Name = 'Arial Narrow'
+    ValueFormat = '%g%%'
+  end
+end

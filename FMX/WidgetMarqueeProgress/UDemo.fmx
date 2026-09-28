@@ -1,0 +1,114 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  BorderStyle = Single
+  Caption = 'TMS FNC Widget Continuous Progress Demo'
+  ClientHeight = 357
+  ClientWidth = 611
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop, iPhone, iPad]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Panel1: TPanel
+    Align = Top
+    Size.Width = 611.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Label1: TLabel
+      Position.X = 48.000000000000000000
+      Position.Y = 16.000000000000000000
+      Size.Width = 241.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Server Backup in Progress...'
+    end
+  end
+  object TMSFNCWidgetMarqueeProgress1: TTMSFNCWidgetMarqueeProgress
+    Position.X = 306.000000000000000000
+    Position.Y = 55.000000000000000000
+    Size.Width = 300.000000000000000000
+    Size.Height = 300.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    CircleOptions.Margin = 30
+    CircleOptions.Fill.Kind = gfkSolid
+    CircleOptions.Fill.Orientation = gfoVertical
+    CircleOptions.Fill.Color = claDarkturquoise
+    CircleOptions.Fill.ColorTo = claGray
+    CircleOptions.Fill.ColorMirror = claNull
+    CircleOptions.Fill.ColorMirrorTo = claNull
+    CircleOptions.Fill.TextureMode = gtmStretch
+    CircleOptions.UnfinishedFill.Kind = gfkSolid
+    CircleOptions.UnfinishedFill.Orientation = gfoVertical
+    CircleOptions.UnfinishedFill.Color = claWhitesmoke
+    CircleOptions.UnfinishedFill.ColorTo = claGray
+    CircleOptions.UnfinishedFill.ColorMirror = claNull
+    CircleOptions.UnfinishedFill.ColorMirrorTo = claNull
+    CircleOptions.UnfinishedFill.TextureMode = gtmStretch
+    Border.Kind = gskSolid
+    Border.Color = claDimgray
+    CaptionOptions.Font.Family = 'Arial'
+    CaptionOptions.Font.Size = 14.000000000000000000
+    CaptionOptions.Font.Color = claGray
+    CaptionOptions.Font.Name = 'Arial'
+    ValueFont.Family = 'Arial Narrow'
+    ValueFont.Size = 25.000000000000000000
+    ValueFont.Color = claGray
+    ValueFont.Name = 'Arial Narrow'
+    ValueFormat = '%g%%'
+  end
+  object TMSFNCWidgetMarqueeContinuousProgress1: TTMSFNCWidgetMarqueeContinuousProgress
+    Position.Y = 55.000000000000000000
+    Size.Width = 300.000000000000000000
+    Size.Height = 300.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    CircleOptions.Margin = 30
+    CircleOptions.Fill.Kind = gfkSolid
+    CircleOptions.Fill.Orientation = gfoVertical
+    CircleOptions.Fill.Color = claPowderblue
+    CircleOptions.Fill.ColorTo = claGray
+    CircleOptions.Fill.ColorMirror = claNull
+    CircleOptions.Fill.ColorMirrorTo = claNull
+    CircleOptions.Fill.TextureMode = gtmStretch
+    CircleOptions.UnfinishedFill.Kind = gfkSolid
+    CircleOptions.UnfinishedFill.Orientation = gfoVertical
+    CircleOptions.UnfinishedFill.Color = claWhite
+    CircleOptions.UnfinishedFill.ColorTo = claGray
+    CircleOptions.UnfinishedFill.ColorMirror = claNull
+    CircleOptions.UnfinishedFill.ColorMirrorTo = claNull
+    CircleOptions.UnfinishedFill.TextureMode = gtmStretch
+    MarqueeAnimation.Fill.Kind = gfkSolid
+    MarqueeAnimation.Fill.Orientation = gfoVertical
+    MarqueeAnimation.Fill.Color = claOrange
+    MarqueeAnimation.Fill.ColorTo = claGray
+    MarqueeAnimation.Fill.ColorMirror = claNull
+    MarqueeAnimation.Fill.ColorMirrorTo = claNull
+    MarqueeAnimation.Fill.TextureMode = gtmStretch
+    MarqueeAnimation.SideFill.Kind = gfkSolid
+    MarqueeAnimation.SideFill.Orientation = gfoVertical
+    MarqueeAnimation.SideFill.Color = claGold
+    MarqueeAnimation.SideFill.ColorTo = claGray
+    MarqueeAnimation.SideFill.ColorMirror = claNull
+    MarqueeAnimation.SideFill.ColorMirrorTo = claNull
+    MarqueeAnimation.SideFill.TextureMode = gtmStretch
+    CenterText = 'Processing...'
+    CenterTextFont.Family = 'Arial Narrow'
+    CenterTextFont.Size = 20.000000000000000000
+    CenterTextFont.Color = claGray
+    CenterTextFont.Name = 'Arial Narrow'
+    Border.Kind = gskSolid
+    Border.Color = claDimgray
+    CaptionOptions.Font.Family = 'Arial'
+    CaptionOptions.Font.Size = 14.000000000000000000
+    CaptionOptions.Font.Color = claGray
+    CaptionOptions.Font.Name = 'Arial'
+  end
+  object Timer1: TTimer
+    Interval = 500
+    OnTimer = Timer1Timer
+  end
+end

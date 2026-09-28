@@ -1,0 +1,91 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  BorderStyle = Single
+  Caption = 'TMS FNC Widget Trend Indicator Demo'
+  ClientHeight = 372
+  ClientWidth = 582
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop, iPhone, iPad]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Button1: TButton
+    Anchors = [akLeft, akBottom]
+    Position.X = 143.000000000000000000
+    Position.Y = 323.000000000000000000
+    Size.Width = 170.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'Get Next Page Stats'
+    OnClick = Button1Click
+  end
+  object Panel1: TPanel
+    Align = Top
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    Size.Width = 582.000000000000000000
+    Size.Height = 312.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object TMSFNCWidgetTrendIndicator1: TTMSFNCWidgetTrendIndicator
+      Align = Client
+      Size.Width = 582.000000000000000000
+      Size.Height = 312.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Border.Kind = gskSolid
+      Border.Color = claDimgray
+      Value = 5923.000000000000000000
+      ValueFont.Family = 'Arial'
+      ValueFont.Size = 14.000000000000000000
+      ValueFont.Color = claGray
+      ValueFont.Name = 'Arial'
+      ValueFormat = '%.0n'
+      DescriptionFont.Family = 'Arial'
+      DescriptionFont.Color = claDarkslategray
+      DescriptionFont.Name = 'Arial'
+      DescriptionText = 'Visits'
+      GraphColor.Kind = gskSolid
+      GraphColor.Color = claNavy
+      GraphFill.Kind = gfkSolid
+      GraphFill.Orientation = gfoVertical
+      GraphFill.Color = claPowderblue
+      GraphFill.ColorTo = claGray
+      GraphFill.ColorMirror = claNull
+      GraphFill.ColorMirrorTo = claNull
+      GraphFill.TextureMode = gtmStretch
+      Values = <
+        item
+          Value = 3479.000000000000000000
+        end
+        item
+          Value = 5634.000000000000000000
+        end
+        item
+          Value = 5942.000000000000000000
+        end
+        item
+          Value = 5283.000000000000000000
+        end
+        item
+          Value = 6138.000000000000000000
+        end
+        item
+          Value = 5838.000000000000000000
+        end>
+    end
+  end
+  object CheckBox1: TCheckBox
+    Anchors = [akLeft, akBottom]
+    Position.X = 24.000000000000000000
+    Position.Y = 327.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'Show Bars'
+    OnChange = CheckBox1Click
+  end
+end

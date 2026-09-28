@@ -1,0 +1,90 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'TMS FNC Widget Gauge Demo'
+  ClientHeight = 394
+  ClientWidth = 564
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop, iPhone, iPad]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    Position.X = 32.000000000000000000
+    Position.Y = 326.000000000000000000
+    Size.Width = 122.000000000000000000
+    Size.Height = 16.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Change Temperature'
+  end
+  object Panel1: TPanel
+    Align = Top
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    Size.Width = 564.000000000000000000
+    Size.Height = 320.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object TMSFNCWidgetGauge1: TTMSFNCWidgetGauge
+      Align = Client
+      Size.Width = 564.000000000000000000
+      Size.Height = 320.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Border.Kind = gskSolid
+      Border.Color = claDimgray
+      MaximumValue = 100.000000000000000000
+      OuterCircle.Width = 0.030000000000000000
+      InnerCircle.Color = claPowderblue
+      OuterRim.Color = claSlategray
+      OuterRim.Width = 2
+      Arc.Width = 0.030000000000000000
+      Arc.Threshold.Center = 25.000000000000000000
+      Arc.Threshold.EndValue = 100.000000000000000000
+      Font.Family = 'Arial'
+      Font.Color = claGray
+      Font.Name = 'Arial'
+      ValueFont.Family = 'Arial'
+      ValueFont.Color = claDarkslategray
+      ValueFont.Name = 'Arial'
+      ValueFormat = '000.00'
+      Sections = <>
+      ExtraNeedles = <>
+    end
+  end
+  object CheckBox1: TCheckBox
+    Anchors = [akLeft, akBottom]
+    Position.X = 211.000000000000000000
+    Position.Y = 344.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Animation'
+    OnChange = CheckBox1Click
+  end
+  object CheckBox2: TCheckBox
+    Anchors = [akLeft, akBottom]
+    Position.X = 330.000000000000000000
+    Position.Y = 344.000000000000000000
+    Size.Width = 207.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'Sections with Custom Margin'
+    OnChange = CheckBox2Click
+  end
+  object TrackBar1: TTrackBar
+    Anchors = [akLeft, akBottom]
+    CanParentFocus = True
+    Max = 60.000000000000000000
+    Min = -40.000000000000000000
+    Orientation = Horizontal
+    Position.X = 16.000000000000000000
+    Position.Y = 344.000000000000000000
+    Size.Width = 178.000000000000000000
+    Size.Height = 20.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    OnChange = TrackBar1Change
+  end
+end

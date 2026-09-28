@@ -1,0 +1,217 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  BorderStyle = Single
+  Caption = 'TMS FNC Widget Progress Demo'
+  ClientHeight = 345
+  ClientWidth = 514
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop, iPhone, iPad]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Label2: TLabel
+    Position.X = 288.000000000000000000
+    Position.Y = 311.000000000000000000
+    Size.Width = 197.000000000000000000
+    Size.Height = 16.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Bitmap Value Indicator Example'
+  end
+  object Label3: TLabel
+    AutoSize = True
+    Position.X = 32.000000000000000000
+    Position.Y = 311.000000000000000000
+    Size.Width = 217.000000000000000000
+    Size.Height = 16.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Animated Value Change Example'
+  end
+  object Panel1: TPanel
+    Align = Top
+    Size.Width = 514.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Label1: TLabel
+      Position.X = 192.000000000000000000
+      Position.Y = 16.000000000000000000
+      Size.Width = 243.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Server Backup In Progress...'
+    end
+    object Button1: TButton
+      Position.X = 24.000000000000000000
+      Position.Y = 13.000000000000000000
+      Size.Width = 137.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Update Status'
+      OnClick = Button1Click
+    end
+  end
+  object TMSFNCBitmapContainer1: TTMSFNCBitmapContainer
+    Size.Width = 26.000000000000000000
+    Size.Height = 26.000000000000000000
+    Size.PlatformDefault = False
+    Position.X = 40.000000000000000000
+    Position.Y = 320.000000000000000000
+    Items = <
+      item
+        Bitmap.PNG = {
+          89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+          F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+          04E4494441545847E596CD6B5C5518C6CFB977268DEDA6480AADF643635AB1C5
+          8D45702128822E8542D32008FE096244C595B81014B4C5BFC08D0BD331D4BD20
+          BA115DA45D88B5A569B0B13526263669BEE6E3DEFBF6F79CB97732C924E9D4C6
+          950F79F29E39F79CF779CE7BCE993BEE7F0F9FC7AE309065CF959D1B7ADAB9E3
+          FB9C7B668FF77DEA5F369BFDDBB98BBF3877B9E1DCC87814FD14267481AE0C20
+          FCD653DE9F7D99F649F850E8EDC42A1C83DFC2DFCC8631724EFDDB615B030366
+          8387CD3E7FDDFB03C7F3BE6E71197E693635E9FD9BE3DE579ABD9DD8D2C0409A
+          9E7FC9FBC121EF1D65FF57603BDC8899FBCEAC321EC7679ABDEBB1A981A35956
+          39E5FD6995BCC07D1D16607914B42517CCBEBE164583CD9E3574E495F80B889F
+          CA3FDFAFF04614462EC01F363111E531E058960D1F42FC15DA2ADF4E52D53C48
+          6E1D689A2DB416C883833DDEFFF106EDC7A09C3DE8EA0BA80A19FC1D7E0113B3
+          43DC909B34D72A80D8F013C40330819BADE241A89CCA2D0DCCB4AAD05AE40933
+          7B95780CC670A7565F405548E155F80DBCE2B95E205440F77D37510E354894E3
+          9D6491531AD29226A16980920CEE276AE5C57E29EE248B9CD2909634094D033D
+          667E2F512E35F0BFA20C48435AC5E16B46AE470F4103849DDE7FA1C8298D5D10
+          E1B50AE8E102ACEAC316D0446319194C5846830D6D91CFEAD3F3EDA01C7A61DD
+          0E9F9A0806344F57E506E4B51A8CC8941E2A4A3465401DB17ADDB91AED76D661
+          4391E70931C38C678EE617399453B9F55DC0B0A02904038CAFC89D0632DF2DC2
+          3938CFA8453A56F3E44144C444BD8638540CA6606142635649BAC2FC3B792E45
+          BA83466E20BC215B1528CA5F82DAA312095246AE4299B80DFF41449C47748178
+          072A2EE8B3C6D00ED49C7CAEAAA17CBDB0B865DA8602C100FF2AED0E632695A1
+          6244A7279123B1C114B18418AA90B30113FA53A2C678E6685ECC3CE5092485C4
+          A5A10A4B9310F4029EE49BF059E2E394A38F89AA804AAA0316CA4E0C870FA68C
+          C9942D474496988C2558669965CAD843EC4155ED18D669FFC5B871C65F82D7DA
+          BF098586D9D929E212896B30D3AA45C433A843A895867D266ACFABAC5A510C95
+          E0990EA1C61A73553951DB50232E62FC162953B408012D0334CEE9F5340B1765
+          82C15A71C244B138804198D8CE8DB74106B4804089934BD75CB76026D72204B4
+          0CE8F588B3E1AB14660E2ED1D79089C200D42AAA50B7425CC9A3188CF02C5CC5
+          DCB8B6AB4A0E9D2F895F81ECB47EAC8657B110F6A11DFDA99D3F92BAC1139477
+          EF0A03B81E2AF50A2BD7A916EB3206F90B09B4F7BB44F67D377B5DB0CCF14FF8
+          093DCB15B8C8E7E992AB4C78BFEEB761AB020526627F6632B6D15F9930478255
+          0E508A4ACAB64858E55CC1C4B2A82A1045DD7B3D57D534B641E625E64E93E712
+          C666221BDD282E741810AEC7D1E949268C61608677678D5578DA2512EAC493BF
+          29925337427D11D922C4325E2CCBACFA26FC99F674C946953324DF808E2D6847
+          7F92BDC675FCF470D53FF228DF1E25B624D596E8E4B37A6D832E93AE5C2F2BED
+          C56484680DD33730FD67D96EA5B17BFB7A291AC95376605B03011F58D4FFBEBD
+          139BFFB88FB3F03006F660A044D9754DBD6A888104038B189885F330F1F6EEC4
+          47FE33F7A1DE0A5BE3DE060A60E4E87BF63C5B3DC41D3F129B3B5932BFDF30C0
+          8FCC293673CC62BDCFFC57139FB81FEF255CA07B03EDC04C882FE667E87B2E44
+          9782EBE1DC5D2C31E69926C7D5740000000049454E44AE426082}
+        Name = 'BlueBall'
+        Tag = 0
+      end>
+  end
+  object TMSFNCWidgetProgress1: TTMSFNCWidgetProgress
+    Position.Y = 55.000000000000000000
+    Size.Width = 250.000000000000000000
+    Size.Height = 250.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    CircleOptions.Fill.Kind = gfkSolid
+    CircleOptions.Fill.Orientation = gfoVertical
+    CircleOptions.Fill.Color = claDarkturquoise
+    CircleOptions.Fill.ColorTo = claGray
+    CircleOptions.Fill.ColorMirror = claNull
+    CircleOptions.Fill.ColorMirrorTo = claNull
+    CircleOptions.Fill.TextureMode = gtmStretch
+    CircleOptions.UnfinishedFill.Kind = gfkSolid
+    CircleOptions.UnfinishedFill.Orientation = gfoVertical
+    CircleOptions.UnfinishedFill.Color = claWhitesmoke
+    CircleOptions.UnfinishedFill.ColorTo = claGray
+    CircleOptions.UnfinishedFill.ColorMirror = claNull
+    CircleOptions.UnfinishedFill.ColorMirrorTo = claNull
+    CircleOptions.UnfinishedFill.TextureMode = gtmStretch
+    Border.Kind = gskSolid
+    Border.Color = claDimgray
+    ValueIndicator.Fill.Kind = gfkSolid
+    ValueIndicator.Fill.Orientation = gfoVertical
+    ValueIndicator.Fill.Color = claDarkturquoise
+    ValueIndicator.Fill.ColorTo = claGray
+    ValueIndicator.Fill.ColorMirror = claNull
+    ValueIndicator.Fill.ColorMirrorTo = claNull
+    ValueIndicator.Fill.TextureMode = gtmStretch
+    ValueIndicator.InnerDotFill.Kind = gfkSolid
+    ValueIndicator.InnerDotFill.Orientation = gfoVertical
+    ValueIndicator.InnerDotFill.Color = claWhite
+    ValueIndicator.InnerDotFill.ColorTo = claGray
+    ValueIndicator.InnerDotFill.ColorMirror = claNull
+    ValueIndicator.InnerDotFill.ColorMirrorTo = claNull
+    ValueIndicator.InnerDotFill.TextureMode = gtmStretch
+    Tickmarks.Stroke.Kind = gskSolid
+    Tickmarks.Stroke.Color = claDarkturquoise
+    Tickmarks.Stroke.Width = 2.000000000000000000
+    Tickmarks.TextFont.Family = 'Arial Narrow'
+    Tickmarks.TextFont.Color = claDarkslategray
+    Tickmarks.TextFont.Name = 'Arial Narrow'
+    CaptionOptions.Font.Family = 'Arial'
+    CaptionOptions.Font.Size = 14.000000000000000000
+    CaptionOptions.Font.Color = claGray
+    CaptionOptions.Font.Name = 'Arial'
+    ValueAnimation.Active = True
+    ValueFont.Family = 'Arial Narrow'
+    ValueFont.Size = 25.000000000000000000
+    ValueFont.Color = claGray
+    ValueFont.Name = 'Arial Narrow'
+    ValueFormat = '%g%%'
+  end
+  object TMSFNCWidgetProgress2: TTMSFNCWidgetProgress
+    Position.X = 256.000000000000000000
+    Position.Y = 55.000000000000000000
+    Size.Width = 250.000000000000000000
+    Size.Height = 250.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    CircleOptions.Fill.Kind = gfkSolid
+    CircleOptions.Fill.Orientation = gfoVertical
+    CircleOptions.Fill.Color = claDarkturquoise
+    CircleOptions.Fill.ColorTo = claGray
+    CircleOptions.Fill.ColorMirror = claNull
+    CircleOptions.Fill.ColorMirrorTo = claNull
+    CircleOptions.Fill.TextureMode = gtmStretch
+    CircleOptions.UnfinishedFill.Kind = gfkSolid
+    CircleOptions.UnfinishedFill.Orientation = gfoVertical
+    CircleOptions.UnfinishedFill.Color = claWhitesmoke
+    CircleOptions.UnfinishedFill.ColorTo = claGray
+    CircleOptions.UnfinishedFill.ColorMirror = claNull
+    CircleOptions.UnfinishedFill.ColorMirrorTo = claNull
+    CircleOptions.UnfinishedFill.TextureMode = gtmStretch
+    Border.Kind = gskSolid
+    Border.Color = claDimgray
+    ValueIndicator.Fill.Kind = gfkSolid
+    ValueIndicator.Fill.Orientation = gfoVertical
+    ValueIndicator.Fill.Color = claDarkturquoise
+    ValueIndicator.Fill.ColorTo = claGray
+    ValueIndicator.Fill.ColorMirror = claNull
+    ValueIndicator.Fill.ColorMirrorTo = claNull
+    ValueIndicator.Fill.TextureMode = gtmStretch
+    ValueIndicator.InnerDotFill.Kind = gfkSolid
+    ValueIndicator.InnerDotFill.Orientation = gfoVertical
+    ValueIndicator.InnerDotFill.Color = claWhite
+    ValueIndicator.InnerDotFill.ColorTo = claGray
+    ValueIndicator.InnerDotFill.ColorMirror = claNull
+    ValueIndicator.InnerDotFill.ColorMirrorTo = claNull
+    ValueIndicator.InnerDotFill.TextureMode = gtmStretch
+    Tickmarks.Stroke.Kind = gskSolid
+    Tickmarks.Stroke.Color = claDarkturquoise
+    Tickmarks.Stroke.Width = 2.000000000000000000
+    Tickmarks.TextFont.Family = 'Arial Narrow'
+    Tickmarks.TextFont.Color = claDarkslategray
+    Tickmarks.TextFont.Name = 'Arial Narrow'
+    CaptionOptions.Font.Family = 'Arial'
+    CaptionOptions.Font.Size = 14.000000000000000000
+    CaptionOptions.Font.Color = claGray
+    CaptionOptions.Font.Name = 'Arial'
+    ValueFont.Family = 'Arial Narrow'
+    ValueFont.Size = 25.000000000000000000
+    ValueFont.Color = claGray
+    ValueFont.Name = 'Arial Narrow'
+    ValueFormat = '%g%%'
+  end
+end

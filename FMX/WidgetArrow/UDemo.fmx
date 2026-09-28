@@ -1,0 +1,112 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  BorderStyle = Single
+  Caption = 'TMS FNC Widget Arrow Demo'
+  ClientHeight = 312
+  ClientWidth = 514
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop, iPhone, iPad]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Panel1: TPanel
+    Align = Top
+    Size.Width = 514.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Label1: TLabel
+      Position.X = 192.000000000000000000
+      Position.Y = 16.000000000000000000
+      Size.Width = 243.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Server Backup In Progress...'
+    end
+    object Button1: TButton
+      Position.X = 24.000000000000000000
+      Position.Y = 13.000000000000000000
+      Size.Width = 137.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Update Status'
+      OnClick = Button1Click
+    end
+  end
+  object TMSFNCWidgetArrow1: TTMSFNCWidgetArrow
+    Position.X = 256.000000000000000000
+    Position.Y = 55.000000000000000000
+    Size.Width = 250.000000000000000000
+    Size.Height = 250.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    ArrowOptions.Border.Kind = gskSolid
+    ArrowOptions.Border.Color = claDimgray
+    Border.Kind = gskSolid
+    Border.Color = claDimgray
+    CaptionOptions.Font.Family = 'Arial'
+    CaptionOptions.Font.Size = 14.000000000000000000
+    CaptionOptions.Font.Color = claGray
+    CaptionOptions.Font.Name = 'Arial'
+    ValueFont.Family = 'Arial'
+    ValueFont.Size = 14.000000000000000000
+    ValueFont.Color = claGray
+    ValueFont.Name = 'Arial'
+    ValueText = '%g'
+  end
+  object TMSFNCWidgetProgress1: TTMSFNCWidgetProgress
+    Position.Y = 54.000000000000000000
+    Size.Width = 250.000000000000000000
+    Size.Height = 250.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    CircleOptions.Fill.Kind = gfkSolid
+    CircleOptions.Fill.Orientation = gfoVertical
+    CircleOptions.Fill.Color = claDarkturquoise
+    CircleOptions.Fill.ColorTo = claGray
+    CircleOptions.Fill.ColorMirror = claNull
+    CircleOptions.Fill.ColorMirrorTo = claNull
+    CircleOptions.Fill.TextureMode = gtmStretch
+    CircleOptions.UnfinishedFill.Kind = gfkSolid
+    CircleOptions.UnfinishedFill.Orientation = gfoVertical
+    CircleOptions.UnfinishedFill.Color = claWhitesmoke
+    CircleOptions.UnfinishedFill.ColorTo = claGray
+    CircleOptions.UnfinishedFill.ColorMirror = claNull
+    CircleOptions.UnfinishedFill.ColorMirrorTo = claNull
+    CircleOptions.UnfinishedFill.TextureMode = gtmStretch
+    Border.Kind = gskSolid
+    Border.Color = claDimgray
+    ValueIndicator.Fill.Kind = gfkSolid
+    ValueIndicator.Fill.Orientation = gfoVertical
+    ValueIndicator.Fill.Color = claDarkturquoise
+    ValueIndicator.Fill.ColorTo = claGray
+    ValueIndicator.Fill.ColorMirror = claNull
+    ValueIndicator.Fill.ColorMirrorTo = claNull
+    ValueIndicator.Fill.TextureMode = gtmStretch
+    ValueIndicator.InnerDotFill.Kind = gfkSolid
+    ValueIndicator.InnerDotFill.Orientation = gfoVertical
+    ValueIndicator.InnerDotFill.Color = claWhite
+    ValueIndicator.InnerDotFill.ColorTo = claGray
+    ValueIndicator.InnerDotFill.ColorMirror = claNull
+    ValueIndicator.InnerDotFill.ColorMirrorTo = claNull
+    ValueIndicator.InnerDotFill.TextureMode = gtmStretch
+    Tickmarks.Stroke.Kind = gskSolid
+    Tickmarks.Stroke.Color = claDarkturquoise
+    Tickmarks.Stroke.Width = 2.000000000000000000
+    Tickmarks.TextFont.Family = 'Arial Narrow'
+    Tickmarks.TextFont.Color = claDarkslategray
+    Tickmarks.TextFont.Name = 'Arial Narrow'
+    CaptionOptions.Font.Family = 'Arial'
+    CaptionOptions.Font.Size = 14.000000000000000000
+    CaptionOptions.Font.Color = claGray
+    CaptionOptions.Font.Name = 'Arial'
+    ValueFont.Family = 'Arial Narrow'
+    ValueFont.Size = 25.000000000000000000
+    ValueFont.Color = claGray
+    ValueFont.Name = 'Arial Narrow'
+    ValueFormat = '%g%%'
+  end
+end
